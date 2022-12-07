@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#logo {
+    justify-content: center;
+    justify-content: flex-end;
+    margin-left: 70px;
+}
+
+#titles {
+    background-image: url("https://ae01.alicdn.com/kf/HTB16g4SaOjrK1RjSsplq6xHmVXa3/galaxy.jpg_Q90.jpg_.webp");
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    flex-direction: column;
+}
+
+#title {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 50vh;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+
+.main-title {
+    color: rgb(255, 255, 255);
+    margin-left: 70px;
+}
+
+#mainmaint {
+    font-size: 70px;
+}
+
+#explanation {
+    color: rgb(232, 232, 232);
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#textexpl {
+    padding: 0.1vw;
+}
+
+.explanation {
+    background-image: url(https://miro.medium.com/max/1200/1*ihnks9VtNIQhvcvrbdnq1Q.jpeg );
+    padding-inline: 60px;
+    background-size: cover;
+    width: 50vw;
+    height: 30vw;
+}
+
+
+#pexplanation {
+    margin-right: 40px;
+    font-size: 25px;
+    margin-left: 60;
+}
+
+#company {
+    font-size: 50px;
+}
+
+#lm {
+    color: rgb(255, 255, 255);
+    background: rgba(117, 116, 116, 0.5);
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 60px;
+    border-radius: 50px;
+}
+
+#mainsecondt {
+    font-size: 45px;
+    text-align: right;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+#page3 {
+    background-image: url("C:/Users/Admin/Desktop/planet2.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+#txtpage3 {
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-right: 40px;
+
+}
+
+.destinations {
+    color: rgb(240, 177, 177);
+    z-index: +1;
+    font-size: 35px;
+
+}
+
+.buttons {
+    background: rgba(210, 141, 141, 0.7);
+    display: block;
+    width: 275px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+#titledest {
+    font-size: 80px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+#buttonsdiv {
+    display: flex;
+    width: 300px;
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-right: 200px;
+}
+
+.companys {
+    color: rgb(225, 255, 250);
+    font-size: 60px;
+
+}
+
+.small {
+    font-size: 30px;
+}
+
+#comptxt {
+    margin-left: 100px;
+    padding-inline: 60px;
+    margin-top: 120px;
+}
+
+#comping {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+
+.subt {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: rgb(122, 255, 251);
+
+}
+
+.clients {
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#intrs {
+    background-image: url(https://img1.goodfon.com/wallpaper/nbig/7/c3/interstellar-movie-adventure-3949.jpg);
+    width: 360px;
+    height: 260px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+#psng {
+    background-image: url(https://pbs.twimg.com/profile_images/834102207356116993/Z0dFwGnF_400x400.jpg);
+    width: 360px;
+    height: 260px;
+    color: white;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#vrgn {
+    background-image: url(https://smonkey.site.co.il/blog/wp-content/uploads/2014/11/virgin-galactic-space-travel.jpg);
+    width: 360px;
+    height: 260px;
+    color: white;
+    background-size: cover;
+    background-position: right;
+}
+
+#conteiner-footer {
+    width: 100vw;
+    height: 150px;
+    background-color: rgb(23, 23, 22);
+}
+
+#containing {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.icons {
+    padding: 5px;
+}
+
+.smalls {
+    margin-top: 4px;
+}
+
+.bigs {
+    margin-top: 10px;
+}
+
+.footer {
+    color: white;
+
+}
+
+#footer {
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer {
+    width: 80vw;
+    padding-left: 10vw;
+}
+
+@media screen and (max-width: 768px) {
+    #comptxt {
+        margin: auto;
+        padding-inline: 20px;
+
+
+    }
+
+    #explanation {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .explanation {
+        height: 40vw;
+    }
+
+    #txtexpl {
+        display: flex;
+        padding-inline: 30px;
+    }
+
+    #buttonsdiv {
+        padding-right: 0px;
+    }
+
+    #titledest {
+        margin: 0%;
+    }
+}
+
+/* padding-inline: 20px; } */
+#comptxt {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+/* padding-inline: 20px; } */
+#comptxt {
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+#title {
+    display: revert;
+    padding: 20px;
+    justify-content: space-between;
+    padding-top: 13vh;
+}
