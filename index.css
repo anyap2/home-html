@@ -299,7 +299,6 @@ body {
     flex-wrap: nowrap;
 }
 
-/* padding-inline: 20px; } */
 #comptxt {
     padding-inline: 20px;
     display: flex;
